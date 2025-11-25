@@ -1,0 +1,22 @@
+https://git-scm.com
+git bash here 들어가기
+
+에러나면
+제어판 사용자계정 => 자격증명관리 => windows 자격증명
+==> 일반자격증명에 추가해줌(github.com / github 설정하고 암호는 입력하지 않음)
+
+c 나 d 드라이브에 폴더생성하고 업로드할 파일 복사하고 
+그 폴더에서 오른쪽마우스 => Git Bash here 클릭해서 cmd 화면 들어감
+git config --global user.name
+변경하려면  git config --global user.name "aaa"
+git config --global user.email
+변경하려면  git config --global user.name "abc@naver.com"
+git init
+git remote add origin 주소복사해서 shift+insert or 오른마우스 paste
+git status  (현재 하드디스크 폴더내 파일 상태확인)
+git add .    (폴더내의 모든파일)
+git commit -m "first 업로드"    (수정내용등 입력)
+git push origin master    (최종적으로 깃허브에 업로드됨)
+[배포]
+settings => pages => branch(master)=>save
+시간이 좀 걸림
